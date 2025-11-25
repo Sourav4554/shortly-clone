@@ -87,7 +87,7 @@ nav {
   line-height: 35px;
   color: #b3b3b5;
 }
-.for-content > .for-button > button {
+.for-content > .for-button > button,.for-button-content>button {
   font-size: 1.2rem;
   padding: 0.5em 1.5em;
   color: #fff;
@@ -142,7 +142,7 @@ nav {
   outline: none;
   border-radius: 8px;
 }
-.button-container > button {
+.button-container > button{
   font-size: 1.2rem;
   padding: 0.8em 1.5em;
   text-align: center;
@@ -244,10 +244,10 @@ nav {
   padding: 20px;
 }
 .two{
-margin-top: 20%;
+margin-top: 25%;
 }
 .three{
-margin-top: 30%;
+margin-top: 35%;
 }
 .one{
 margin-top: 10%;
@@ -260,4 +260,22 @@ background-color: #1eebeb;
 top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
+}
+.button-main-container{
+width: 100%;
+height: 25vh;
+background:#393053 url('./images/bg-boost-desktop.svg') center/cover no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.for-button-content>h1{
+color: #fff;
+font-size: 2.5rem;
+text-align: center;
+}
+.for-button-content>button{
+display: block;
+margin: 0 auto;
+margin-top: 2%;
 }
