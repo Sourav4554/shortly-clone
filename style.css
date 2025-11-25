@@ -115,6 +115,7 @@ nav {
 /* link-shorter-section */
 .link-shortner-container {
   padding: 2px 15px;
+  position: sticky;
 }
 .link-shortner-sub-container {
   margin: 0 auto;
@@ -151,4 +152,112 @@ nav {
   outline: none;
   border: none;
   font-weight: bold;
+}
+.main-statictics-container {
+  width: 100%;
+  margin-top: -6%;
+  background-color: #f0f1f6;
+}
+.sub-statitics-container {
+  /* background-color: #2bd0d1; */
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 15px;
+}
+.for-contents {
+  /* background-color: #fff; */
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 5px 10px;
+  max-width: 460px;
+  margin-top: 16%;
+}
+.for-contents > .for-heading > h2 {
+  font-size: 2.5rem;
+  /* padding: 5px 8px; */
+  color: #313137;
+  text-align: center;
+  font-weight: bold;
+}
+.for-contents > .for-para > p {
+  text-align: center;
+  line-height: 30px;
+  color: #a4a4aa;
+  font-weight: bold;
+}
+.for-cards {
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  place-content: center;
+  position: relative;
+  padding: 8px 10px;
+}
+.card {
+  background-color: #fff;
+ z-index: 999;
+  padding: 8px 18px;
+  max-height: 30vh;
+  border-radius: 5px;
+  box-shadow: 2px 2px #34313c15;
+}
+.for-details {
+  max-width: 250px;
+  padding: 15px 8px;
+  display: flex;
+  flex-direction: column;
+}
+.for-details > h3 {
+  color: #343435;
+  margin-bottom: 4%;
+  text-align: start;
+}
+.for-details > p {
+  color: #a7a5ad;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+.card > .image {
+  border-radius: 50%;
+  background-color: #393053;
+  width: fit-content;
+  display: flex;
+  display: 30px;
+  flex-direction: column;
+  margin-top: -17%;
+}
+.card > .image > img {
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+}
+.two{
+margin-top: 20%;
+}
+.three{
+margin-top: 30%;
+}
+.one{
+margin-top: 10%;
+}
+.connector{
+position: absolute;
+width: 50%;
+height: 1vh;
+background-color: #1eebeb;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
 }
