@@ -155,12 +155,13 @@ nav {
 }
 .main-statictics-container {
   width: 100%;
+  height: 130vh;
   margin-top: -6%;
   background-color: #f0f1f6;
 }
 .sub-statitics-container {
   /* background-color: #2bd0d1; */
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -191,7 +192,7 @@ nav {
   font-weight: bold;
 }
 .for-cards {
-  width: 98%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 3%;
   display: grid;
@@ -203,9 +204,11 @@ nav {
 }
 .card {
   background-color: #fff;
+  height: 60vh;
  z-index: 999;
   padding: 8px 18px;
-  max-height: 30vh;
+  max-height: 35vh;
+  max-width: 300px;
   border-radius: 5px;
   box-shadow: 2px 2px #34313c15;
 }
@@ -222,7 +225,7 @@ nav {
 }
 .for-details > p {
   color: #a7a5ad;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 500;
   line-height: 20px;
 }
@@ -263,7 +266,7 @@ transform: translate(-50%,-50%);
 }
 .button-main-container{
 width: 100%;
-height: 25vh;
+height: 30vh;
 background:#393053 url('./images/bg-boost-desktop.svg') center/cover no-repeat;
 display: flex;
 align-items: center;
@@ -278,4 +281,37 @@ text-align: center;
 display: block;
 margin: 0 auto;
 margin-top: 2%;
+}
+.footer-main-container{
+width: 100%;
+height: 40vh;
+padding: 10px 15px;
+background-color:#242129;
+}
+.footer-sub-container{
+width: 80%;
+margin: 0 auto;
+padding: 10px 15px;
+margin-top: 5%;
+display: grid;
+gap: 30px;
+grid-template-columns: 3fr 1.5fr 1.5fr 1.5fr 3fr;
+}
+.footer-head{
+color: #fff;
+font-weight: 600;
+font-size: 0.9rem;
+}
+.footer-head+ul{
+margin-top: 15%;
+}
+.footer-head+ul>li{
+color: rgb(199, 195, 195);
+font-size: 0.7rem;
+font-weight: bold;
+padding: 8px 0;
+}
+.for-icons{
+display: flex;
+gap: 30px;
 }
